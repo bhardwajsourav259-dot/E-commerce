@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>StyleCart - E-Commerce Website</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header id="header">
+
+        <a href="#" class="logo">StyleCart</a>
+
+        <nav>
+            <ul id="navbar">
+
+                <li>
+                    <a class="active" href="#home">Home</a>
+                </li>
+
+                <li>
+                    <a href="shop.html">Shop</a>
+                </li>
+
+                <li>
+                    <a href="shop.html">Products</a>
+                </li>
+
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+                <li>
+                    <a href="cart.html">
+                        <i class="fa-solid fa-bag-shopping"></i>
+                        <span id="cart-count">0</span>
+                    </a>
+                </li>
+
+                <li>
+                    <i class="fa-solid fa-xmark" id="close"></i>
+                </li>
+
+            </ul>
+        </nav>
+
+        <div id="mobile">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <i class="fa-solid fa-bars" id="bar"></i>
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section id="hero">
+
+        <div class="hero-content">
+
+            <p>Trade-in-offer</p>
+
+            <h1>Super value deals</h1>
+
+            <h2>On all products</h2>
+
+            <p>Save more with coupons & up to 70% off!</p>
+
+            <button>Shop Now</button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FEATURES ================= -->
+
+    <section id="feature" class="section-p1">
+
+        <div class="feature-box">
+
+            <i class="fa-solid fa-truck"></i>
+
+            <h6>Free Shipping</h6>
+
+        </div>
+
+        <div class="feature-box">
+
+            <i class="fa-solid fa-clock"></i>
+
+            <h6>Online Order</h6>
+
+        </div>
+
+        <div class="feature-box">
+
+            <i class="fa-solid fa-money-bill"></i>
+
+            <h6>Save Money</h6>
+
+        </div>
+
+        <div class="feature-box">
+
+            <i class="fa-solid fa-tags"></i>
+
+            <h6>Promotions</h6>
+
+        </div>
+
+        <div class="feature-box">
+
+            <i class="fa-solid fa-face-smile"></i>
+
+            <h6>Happy Sell</h6>
+
+        </div>
+
+        <div class="feature-box">
+
+            <i class="fa-solid fa-headset"></i>
+
+            <h6>24/7 Support</h6>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PRODUCTS ================= -->
+
+    <section id="products" class="section-p1">
+
+        <h2>Featured Products</h2>
+
+        <p>Summer Collection New Modern Design</p>
+
+        <div class="product-container">
+
+            <!-- Product 1 -->
+
+            <div class="product">
+
+                <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600" alt="T-Shirt">
+
+                <div class="product-info">
+
+                    <span>Adidas</span>
+
+                    <h5>Classic Cotton T-Shirt</h5>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h4>$78</h4>
+
+                </div>
+
+                <button class="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+
+            </div>
+
+
+            <!-- Product 2 -->
+
+            <div class="product">
+
+                <img src="https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=600" alt="Shirt">
+
+                <div class="product-info">
+
+                    <span>Nike</span>
+
+                    <h5>Casual Fashion Shirt</h5>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h4>$85</h4>
+
+                </div>
+
+                <button class="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+
+            </div>
+
+
+            <!-- Product 3 -->
+
+            <div class="product">
+
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=600" alt="Shoes">
+
+                <div class="product-info">
+
+                    <span>Puma</span>
+
+                    <h5>Running Sneakers</h5>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h4>$120</h4>
+
+                </div>
+
+                <button class="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+
+            </div>
+
+
+            <!-- Product 4 -->
+
+            <div class="product">
+
+                <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?w=600" alt="Fashion">
+
+                <div class="product-info">
+
+                    <span>Zara</span>
+
+                    <h5>Modern Fashion Dress</h5>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h4>$95</h4>
+
+                </div>
+
+                <button class="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+
+            </div>
+
+
+            <!-- Product 5 -->
+
+            <div class="product">
+
+                <img src="https://images.unsplash.com/photo-1548883354-7622d03aca27?w=600" alt="Jacket">
+
+                <div class="product-info">
+
+                    <span>Levis</span>
+
+                    <h5>Denim Jacket</h5>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h4>$110</h4>
+
+                </div>
+
+                <button class="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+
+            </div>
+
+
+            <!-- Product 6 -->
+
+            <div class="product">
+
+                <img src="https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=600" alt="Hoodie">
+
+                <div class="product-info">
+
+                    <span>H&M</span>
+
+                    <h5>Comfort Hoodie</h5>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h4>$65</h4>
+
+                </div>
+
+                <button class="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+
+            </div>
+
+
+            <!-- Product 7 -->
+
+            <div class="product">
+
+                <img src="https://images.unsplash.com/photo-1525507119028-ed4c629a60a3?w=600" alt="Clothes">
+
+                <div class="product-info">
+
+                    <span>Uniqlo</span>
+
+                    <h5>Premium Casual Wear</h5>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h4>$72</h4>
+
+                </div>
+
+                <button class="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+
+            </div>
+
+
+            <!-- Product 8 -->
+
+            <div class="product">
+
+                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=600" alt="Fashion">
+
+                <div class="product-info">
+
+                    <span>H&M</span>
+
+                    <h5>Summer Fashion Outfit</h5>
+
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+
+                    <h4>$88</h4>
+
+                </div>
+
+                <button class="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= BANNER ================= -->
+
+    <section id="banner">
+
+        <div class="banner-content">
+
+            <span>Repair Services</span>
+
+            <h2>Up to <span>70% Off</span> - All T-Shirts & Accessories</h2>
+
+            <button>Explore More</button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= NEW ARRIVALS ================= -->
+
+    <section id="products" class="section-p1">
+
+        <h2>New Arrivals</h2>
+
+        <p>New Modern Collection</p>
+
+        <div class="product-container">
+
+            <div class="product">
+
+                <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?w=600">
+
+                <div class="product-info">
+
+                    <span>Fashion</span>
+
+                    <h5>Modern Casual Shirt</h5>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <h4>$90</h4>
+
+                </div>
+
+                <button class="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+
+            </div>
+
+
+            <div class="product">
+
+                <img src="https://images.unsplash.com/photo-1551028719-00167b16eac5?w=600">
+
+                <div class="product-info">
+
+                    <span>Fashion</span>
+
+                    <h5>Leather Jacket</h5>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <h4>$140</h4>
+
+                </div>
+
+                <button class="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+
+            </div>
+
+
+            <div class="product">
+
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=600">
+
+                <div class="product-info">
+
+                    <span>Fashion</span>
+
+                    <h5>Stylish Collection</h5>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <h4>$105</h4>
+
+                </div>
+
+                <button class="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+
+            </div>
+
+
+            <div class="product">
+
+                <img src="https://images.unsplash.com/photo-1551489186-cf8726f514f8?w=600">
+
+                <div class="product-info">
+
+                    <span>Fashion</span>
+
+                    <h5>Premium Sweatshirt</h5>
+
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+
+                    <h4>$75</h4>
+
+                </div>
+
+                <button class="cart-btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SMALL BANNERS ================= -->
+
+    <section id="sm-banner" class="section-p1">
+
+        <div class="banner-box">
+
+            <span>Crazy Deals</span>
+
+            <h2>Buy 1 Get 1 Free</h2>
+
+            <p>The best classic dress is on sale</p>
+
+            <button>Learn More</button>
+
+        </div>
+
+
+        <div class="banner-box banner-box-2">
+
+            <span>Spring/Summer</span>
+
+            <h2>Upcoming Season</h2>
+
+            <p>New collection available now</p>
+
+            <button>Collection</button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= TEXT BANNERS ================= -->
+
+    <section id="text-banner" class="section-p1">
+
+        <div class="text-box">
+
+            <h2>SEASONAL SALE</h2>
+
+            <h3>Winter Collection - 50% OFF</h3>
+
+        </div>
+
+        <div class="text-box">
+
+            <h2>NEW FOOTWEAR COLLECTION</h2>
+
+            <h3>Spring / Summer 2026</h3>
+
+        </div>
+
+        <div class="text-box">
+
+            <h2>T-SHIRTS</h2>
+
+            <h3>New Trendy Designs</h3>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= NEWSLETTER ================= -->
+
+    <section id="newsletter">
+
+        <div class="newsletter-text">
+
+            <h4>Sign Up For Newsletter</h4>
+
+            <p>
+                Get E-mail updates about our latest shop and
+                <span>special offers.</span>
+            </p>
+
+        </div>
+
+        <div class="newsletter-form">
+
+            <input type="email" id="email" placeholder="Your email address">
+
+            <button id="subscribe">Sign Up</button>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer id="footer" class="section-p1">
+
+        <div class="footer-column">
+
+            <h2 class="footer-logo">StyleCart</h2>
+
+            <h4>Contact</h4>
+
+            <p><strong>Address:</strong> Chandigarh, India</p>
+
+            <p><strong>Phone:</strong> +91 9876543210</p>
+
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+
+            <div class="follow">
+
+                <h4>Follow Us</h4>
+
+                <div class="social-icons">
+
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-youtube"></i>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>About</h4>
+
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+
+        </div>
+
+
+        <div class="footer-column">
+
+            <h4>My Account</h4>
+
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+
+        </div>
+
+
+        <div class="footer-column install">
+
+            <h4>Install App</h4>
+
+            <p>From App Store or Google Play</p>
+
+            <div class="app-buttons">
+
+                <button>
+                    <i class="fa-brands fa-apple"></i>
+                    App Store
+                </button>
+
+                <button>
+                    <i class="fa-brands fa-google-play"></i>
+                    Google Play
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            <p>
+                © 2026 StyleCart. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
